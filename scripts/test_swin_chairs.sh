@@ -1,0 +1,32 @@
+# random
+CUDA_VISIBLE_DEVICES="1" PYTHONPATH=/home/penghy/jittor-dev/jittor/python python3 test_mf_seg.py train \
+--name swin-chairs-cc \
+--dataroot datasets/coseg_chairs \
+--optim adam \
+--lr 1e-3 \
+--lr_milestones 50 100 150 \
+--weight_decay 2e-2 \
+--n_epoch 500 \
+--batch_size 12 \
+--n_classes 256 256 8 \
+--no_center_diff \
+--depth 3 3 \
+--channels 64 128 256 \
+--patch_num 256 32 \
+--use_hierarchy 1 \
+--n_dropout 1 \
+--augment_scale \
+--augment_orient \
+--knn 3 \
+--agg_method 1 \
+--nw 128 32 \
+--window_size 7 \
+--transformer_type swin \
+--sample_method ffs \
+--seed 100 \
+--parts 3 \
+--n_worker 4 \
+--use_conv 1 \
+--use_xyz \
+--use_normal \
+--ckpt_name seg_3 
