@@ -29,4 +29,4 @@ CUDA_VISIBLE_DEVICES="0" python3 test_mf_seg.py train \
 --use_conv 1 \
 --use_xyz \
 --use_normal \
---ckpt_name seg_3 
+--ckpt_name seg_chair
