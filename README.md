@@ -18,4 +18,4 @@ Note that COSEG datasets should be downloaded with
 sh scripts/get_data.sh
 ```
 
-Since the codes are in a raw situation, if you meet any problems in running the code, please contant our email: phy22@mails.tsinghua.edu.cn. Thanks!
+Since the codes are in a raw situation, if you meet any problems in running the code, please contant our email: phy22@mails.tsinghua.edu.cn. We thank for your patient reviewing of the codes.
