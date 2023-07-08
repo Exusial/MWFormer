@@ -1,5 +1,5 @@
 # random
-CUDA_VISIBLE_DEVICES="1" PYTHONPATH=/home/penghy/jittor-dev/jittor/python python3 test_mf_seg.py train \
+CUDA_VISIBLE_DEVICES="0" python3 test_mf_seg.py train \
 --name swin-chairs-cc \
 --dataroot datasets/coseg_chairs \
 --optim adam \
