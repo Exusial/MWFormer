@@ -5,7 +5,6 @@ __pycache__
 *.ipynb
 *.zip
 *.tgz
-*.txt
 *.log
 *.pyc
 data
